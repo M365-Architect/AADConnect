@@ -1,4 +1,5 @@
 # tiny script to adjust the UPNs under a certain OU in an AD
+# USE AT YOUR OWN RISK
 
 $SearchOU = "" #distinguishedName of the root OU that will be _recursively_ searched for AD user objects
 $oldUPNSuffix = "olddomain.tld" #the name of the old UPN suffix that should be replaced. Without "@"!
